@@ -1,0 +1,22 @@
+﻿{
+    "_id": "ISBN_12345",
+    "titulo": "Livro de Exemplo",
+    "autor": "Autor Exemplo",
+    "ano": 2023,
+    "disponivel": true
+  }
+
+  {
+    "_id": "user_123",
+    "nome": "Nome do Usuário",
+    "email": "email@exemplo.com",
+    "telefone": "123456789"
+  }
+
+  {
+    "_id": "loan_123",
+    "livro_id": "ISBN_12345",
+    "usuario_id": "user_123",
+    "data_emprestimo": "2023-09-25",
+    "data_devolucao": null
+  }
